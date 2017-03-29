@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(rqt_svo)
-
+set (CMAKE_PREFIX_PATH /opt/Qt5.6.1/5.6/gcc_64/lib/cmake)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   rqt_gui
